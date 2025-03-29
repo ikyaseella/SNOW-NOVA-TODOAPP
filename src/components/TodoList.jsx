@@ -23,7 +23,7 @@ const TodoList = () => {
 }
 
     return (
-        <div className='container bg-gray-700 mt-20 p-8 rounded-md'>
+        <div className='container bg-gray-700 mt-20 p-8 rounded-md w-1/2 m-50'>
             <Form createTodo={createTodo} />
             {
                 todoValue.map((todo, idx) => (
